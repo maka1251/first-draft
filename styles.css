@@ -14,6 +14,7 @@ body{
 }
 .header-line{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
@@ -21,7 +22,8 @@ body{
     display: flex;
 }
 .group-1{
-    margin-left: auto;
+    display: flex;
+    gap: 20px;
 }
 .nav-item{
     color: aliceblue;
@@ -58,4 +60,15 @@ body{
     width: 13em;
     display: flex;
     justify-content: space-around;
+}
+.main{
+    background-color: rgb(33, 33, 33);
+    height: 300vh;
+}
+.main-container{
+    padding: 160px 150px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
 }
