@@ -1,16 +1,16 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    color: aliceblue;
 }
 .header{
     background-image: url(bgimage.png);
-    height: 100vh;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .container{
     margin: 0px 100px;
-    color: aliceblue;
 }
 .header-line{
     display: flex;
@@ -63,12 +63,57 @@ body{
 }
 .main{
     background-color: rgb(33, 33, 33);
-    height: 300vh;
 }
-.main-container{
+.about{
     padding: 160px 150px;
-    color: aliceblue;
     display: flex;
     justify-content: space-around;
     gap: 100px;
 }
+#specialcolor{
+    color: #4C70EF;
+    font-weight: 600;
+    font-size: 24px;
+}
+#im{
+    font-size: 36px;
+    font-weight: 600;
+}
+.service{
+    padding: 0px 260px;
+    text-align: center;
+}
+#about-text{
+    color: #B0ADAD;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #292C36;
+    border-radius: 10px;
+    width: 480px;
+    text-align: left;
+}
+.group-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#service-text{
+    color: #B0ADAD;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+#front-back{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
