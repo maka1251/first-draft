@@ -125,7 +125,8 @@ body{
 .portfolio-cards{
     display: flex;
     justify-content: space-around;
-    /*margin: 0;*/
+    gap: 20px;
+    flex-flow: row wrap;
     padding: 0px 30px;
 }
 .card2{
@@ -153,5 +154,35 @@ body{
     font-weight: 600;
     color: #fff;
     padding: 10px 18px;
+}
+.cta{
+    background-color: #292C36;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 78px 0px;
+    border-radius: 12px;
+    margin: 120px;
+}
+#have-any{
+    font-size: 32px;
+    font-weight: 600;
+}
+.footer{
+    background-color: #292C36;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 32px;
+}
+#log{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+#COPYRIGHT{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
 }
 
