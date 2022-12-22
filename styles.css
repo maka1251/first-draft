@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
+    background-color: rgb(33, 33, 33);
 }
 .header{
     background-image: url(bgimage.png);
@@ -66,11 +67,11 @@ body{
     padding: 106px 130px;
 }
 .about{
-    /*padding: 160px 150px;*/
     display: flex;
     justify-content: space-around;
     gap: 100px;
 }
+
 .text{
     overflow: hidden;
 }
@@ -83,8 +84,6 @@ body{
     font-size: 36px;
     font-weight: 600;
 }
-    
-    /*text-align: center;*/
 .service{
     padding: 100px 160px;
     text-align: center;
@@ -129,6 +128,7 @@ body{
     flex-flow: row wrap;
     padding: 0px 30px;
 }
+
 .card2{
     background-color: #292C36;
     text-align: left;
@@ -159,11 +159,11 @@ body{
     background-color: #292C36;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     padding: 78px 0px;
     border-radius: 12px;
     margin: 120px;
+    text-align: center;
 }
 #have-any{
     font-size: 32px;
@@ -184,5 +184,50 @@ body{
     font-weight: 700;
     font-size: 16px;
     margin: 0;
+}
+@media only screen and (max-width: 1300px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .text{
+        padding: 0px 100px;
+    }
+    .image{
+        margin-top: 30px;
+    }
+    .main{
+        padding: 0px 0px;
+    }
+    #have-any{
+        font-size: 16px;
+    }
+    .cta{
+        margin: 80px
+    }
+}
+@media only screen and (max-width: 627px){
+    #have-any{
+        font-size: 16px;
+    }
+    .cta{
+        margin: 30px
+    }
+    .header-line {
+        flex-direction: column;
+    }
+    .header-title h1 {
+        font-size: 34px;
+    }
+    .header-title p {
+        font-size: 13px;
+    }
+    .header {
+        height: 400px;
+    }
+    .container.two {
+        padding-top: 50px;
+    }
 }
 
