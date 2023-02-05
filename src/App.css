@@ -1,3 +1,7 @@
+@import-normalize; 
+
+
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -5,13 +9,13 @@ body{
     background-color: rgb(33, 33, 33);
 }
 .header{
-    background-image: url(bgimage.png);
+    background-image: url(assets/images/bgimage.png);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .container{
-    margin: 0px 100px;
+    padding: 18px 87px 0px;
 }
 .header-line{
     display: flex;
@@ -39,11 +43,12 @@ body{
     margin-left: 14px;
 }
 .container.two{
-    padding-top: 100px;
+    
 }
 .header-title{
     margin-left: auto;
     margin-right: auto;
+    padding: 209px 0px;
 }
 .header-title p{
     text-align: center;
@@ -272,4 +277,5 @@ body{
         padding-top: 50px;
     }
 }
+
 
