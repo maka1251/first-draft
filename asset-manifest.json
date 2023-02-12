@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/first-draft/static/css/main.2a52c2ee.css",
+    "main.js": "/first-draft/static/js/main.3edea527.js",
+    "static/media/bgimage.png": "/first-draft/static/media/bgimage.cd8f05e4e62e75604506.png",
+    "static/media/about-image.png": "/first-draft/static/media/about-image.d3548eb8458555a2841c.png",
+    "static/media/travel-app-modal1.png": "/first-draft/static/media/travel-app-modal1.47e04c9f42b14355d492.png",
+    "static/media/cafestreet-webdesign1.png": "/first-draft/static/media/cafestreet-webdesign1.4db1725a38fd3fd541a3.png",
+    "static/media/portfolio1.png": "/first-draft/static/media/portfolio1.e621c70235e8ba11820a.png",
+    "index.html": "/first-draft/index.html",
+    "main.2a52c2ee.css.map": "/first-draft/static/css/main.2a52c2ee.css.map",
+    "main.3edea527.js.map": "/first-draft/static/js/main.3edea527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a52c2ee.css",
+    "static/js/main.3edea527.js"
+  ]
+}
