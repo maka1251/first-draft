@@ -1,4 +1,3 @@
-import Logo from './assets/images/logo.png';
 import Instagram from './assets/images/instagram.png';
 import About from './assets/images/about-image.png';
 import Facebook from './assets/images/facebook.png';
@@ -8,37 +7,34 @@ import Frame2 from './assets/images/Frame2.png';
 import Github from './assets/images/github.png';
 import Portfolio from './assets/images/portfolio1.png';
 import Travel from './assets/images/travel-app-modal1.png';
+
 import './App.css';
+import React, { useState } from 'react';
+import Logo from './logo.js';
+import Navigation from './list.js';
+
 
 
 function App() {
+  const [title, setTitle] = useState('I`m Raul iqbal');  
   return (
     <div className="App">
       <div className="header">
         <div className="container">
             <div className="header-line">
-                <div className="logo">
-                    <img src={Logo} alt=""/>
-                    <p className="raul">RAUL</p>
-                </div>
-                
-                <div className="group-1">
-                    <a className="nav-item" href="#">ABOUT</a>
-                    <a className="nav-item" href="#">WHAT I DO</a>
-                    <a className="nav-item" href="#">WORK</a>
-                    <a className="nav-item" href="#">CONTACT</a>
-                </div>
+                <Logo/>
+                <Navigation/>
             </div>
         </div>
 
         <div className="container__two">
             <div className="header-title">
-                <h1>I’m Raul iqbal</h1>
+                <h1>{title}</h1>
                 <p>Front-End Development - UI/UX Designer</p>
                 <div className="elements">
                     <a href="#"><img src={Instagram} alt=""/></a>
                     <a href="#"><img src={Facebook} alt=""/></a>
-                    <a href="#"><img src={Github} alt=""/></a>
+                    <a href="#"><img src={Github} alt=""/></a>      
                 </div>
             </div>
         </div>
