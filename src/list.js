@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NavItem from './navItem.js';
 
 function Navigation () {
-    const [nav, setNav] = useState(["ABOUT", "WHAT I DO", "WORK", "CONTACT"]);
+    const [nav] = useState(["ABOUT", "WHAT I DO", "WORK", "CONTACT"]);
     return(
     <div className="group-1">
         {nav.map(item => (

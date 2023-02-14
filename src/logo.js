@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState } from 'react';
 
 function Logo () {
-    const [logoTitle, setLogo_title] = useState('Raul');
+    const [logoTitle] = useState('Raul');
     return(
     <div className="logo">
         <img src={imageLogo} alt=""/>

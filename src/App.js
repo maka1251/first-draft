@@ -14,7 +14,7 @@ import Logo from './logo.js';
 import Navigation from './list.js';
 
 function App() {
-  const [title, setTitle] = useState('I`m Raul iqbal');
+  const [title] = useState('I`m Raul iqbal');
   return (
     <div className="App">
       <div className="header">
@@ -30,9 +30,9 @@ function App() {
                 <h1>{title}</h1>
                 <p>Front-End Development - UI/UX Designer</p>
                 <div className="elements">
-                    <a href="#"><img src={Instagram} alt=""/></a>
-                    <a href="#"><img src={Facebook} alt=""/></a>
-                    <a href="#"><img src={Github} alt=""/></a>
+                    <a href="#google"><img src={Instagram} alt=""/></a>
+                    <a href="#google"><img src={Facebook} alt=""/></a>
+                    <a href="#google"><img src={Github} alt=""/></a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ function App() {
                     <div className="rectangle">
                         <p id="rectangle-text">Need Food App Design</p>
                         <div className="button">
-                            <a className="button-cards" href="#">View Demo</a>
+                            <a className="button-cards" href="#google">View Demo</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ function App() {
                     <div className="rectangle">
                         <p id="rectangle-text2">Cafe Street Web Design</p>
                         <div className="button">
-                            <a className="button-cards" href="#">View Demo</a>
+                            <a className="button-cards" href="#google">View Demo</a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ function App() {
                     <div className="rectangle">
                         <p id="rectangle-text3">Travel App Design</p>
                         <div className="button">
-                            <a className="button-cards" href="#">View Demo</a>
+                            <a className="button-cards" href="#google">View Demo</a>
                         </div>
                     </div>
                 </div>
@@ -107,15 +107,21 @@ function App() {
         <div className="cta">
             <p id="have-any">Have any project in mind ?</p>
             <div className="button">
-                <a className="button-cards" href="#">View Demo</a>
+                <a className="button-cards" href="#google">View Demo</a>
             </div>
         </div>
     </div>
     
     <footer className="footer">
         <p id="log">AUTHOR FIDRIA MAKSIM</p>
-        <a className="COPYRIGHT" href="https://www.figma.com/file/x8ffPs1dXr1cF4J82g0GB3/Simple-Personal-Portfolio-Wesbsite---Dark-Mode-(Community)" target="_blank">ORIGINAL</a>
-        <a className="COPYRIGHT" href="https://github.com/maka1251" target="_blank"> <br/> GITHUB</a>
+        <a className="COPYRIGHT" 
+        href="https://www.figma.com/file/x8ffPs1dXr1cF4J82g0GB3/Simple-Personal-Portfolio-Wesbsite---Dark-Mode-(Community)" 
+        target="_blank"
+        rel="noopener noreferrer">ORIGINAL</a>
+        <a className="COPYRIGHT" 
+        href="https://github.com/maka1251" 
+        target="_blank"
+        rel="noopener noreferrer"> <br/> GITHUB</a>
     </footer>
     </div>
   );

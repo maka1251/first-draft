@@ -1,11 +1,11 @@
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import uuid from 'react-uuid';
 
 function NavItem ({item}) {
     console.log(item.index)
     return(
-            <a className="nav-item" href="#" key={uuid()}>{item}</a>
+            <a className="nav-item" href="#google" key={uuid()}>{item}</a>
         )
 }
 
